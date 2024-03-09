@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgba(247, 113, 3, 0.755), rgb(255, 0, 128));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  rgb(255, 0, 128);
+}
+
+.content-container{
+    background-image: url(../Images/image-lion-background.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    height: 118px;
+}
+
+.logo{
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav{
+    float: right;
+}
+
+.nav-link{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: solid;
+    border-width: 2px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    background-image: linear-gradient(rgba(247, 113, 3, 0.755), rgb(255, 0, 128));
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(247, 113, 3, 0.755);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.MBR-text h1{
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MBR-text p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MBR-text {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.bike-repair-image{
+    float: right;
+    margin-top: 40px;
+}
+
+.button{
+    background-color: white;
+    color: rgb(255, 0, 128);
+    text-decoration: none;
+    font-family:'Times New Roman', Times, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+
+.button:hover{
+    background-color: limegreen;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
